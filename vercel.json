@@ -1,0 +1,16 @@
+{
+    "framework": null,
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "https://gptfims.com/",
+            "permanent": true
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/(.+)",
+            "destination": "https://mega.cinmov.com/api2/redirect/$1"
+        }
+    ]
+}
